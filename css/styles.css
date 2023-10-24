@@ -21,7 +21,7 @@ button{
 .header{border-bottom: 1px solid #e7e9fc;
 }
 
-.container-one{display: flex;
+.container{display: flex;
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -125,6 +125,7 @@ white-space: nowrap;
 clip-path: inset(100%);
 clip:rect(0 0 0 0) ;
 overflow: hidden;}
+
 .section-one-item-title {color: var(--NAVY-BLUE, #2E2F42);
 font-size: 20px;
 font-weight: 500;
