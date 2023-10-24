@@ -28,7 +28,7 @@ button{
     margin: 0 auto;
 }
 .header-list{gap: 40px;align-items: center;}
-.header-nav-list{padding: 24px 0;}
+.header-nav-list{}
 .header-logo {color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -50,7 +50,9 @@ margin-right: 76px;}
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+padding-top: 24px;
+    padding-bottom: 24px;}
 
     .header-list-item:hover,
     .header-list-item:focus{color: #404bbf;}
