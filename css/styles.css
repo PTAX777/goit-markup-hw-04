@@ -19,16 +19,20 @@ button{
     cursor: pointer;
 }
 .header{border-bottom: 1px solid #e7e9fc;
-    }
+}
 
-.container{
+.container-one{
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    display: flex;
 }
-.header-list{gap: 40px;align-items: center;}
-.header-nav-list{}
+
+.header-nav{display: flex;align-items: center;
+}
+.header-list{gap: 40px;
+display: flex;}
 .header-logo {color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -58,8 +62,13 @@ padding-top: 24px;
     .header-list-item:focus{color: #404bbf;}
            
 
-.address-zero{ font-style: normal; display: flex;}
-.address-list{gap: 40px;}
+.address-zero{ font-style: normal; 
+    display: flex;}
+.address-list{
+display: flex;
+padding-top: 40px;
+padding-bottom: 40px;}
+
 .address-list-link {color: #434455;
     font-size: 16px;
     font-weight: 400;
@@ -103,8 +112,9 @@ padding-top: 24px;
     .button:focus{background-color: #404BBF;}
 
     .section-one{padding-top: 120px;
-    padding-bottom: 120px;}
-
+    padding-bottom: 120px;
+    
+}
 .visually-hidden{visibility: hidden;}
 .section-one-item-title {color: var(--NAVY-BLUE, #2E2F42);
 font-size: 20px;
@@ -112,7 +122,7 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 margin-bottom: 8px;}
-.section-one-list{gap: 24px;}
+.section-one-list{gap: 24px;display: flex;}
 .section-one-item{width: calc((100% - 72px) / 4);}
 .section-one-item-txt {color: var(--SLATE, #434455);
     font-size: 16px;
@@ -127,7 +137,8 @@ padding-top: 120px;
 padding-bottom: 120px;}
 
 .section-two-list {background-color:#ffffff;
-gap: 24px;}
+gap: 24px;
+display: flex;}
 
 .section-two-title {color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
@@ -166,9 +177,10 @@ padding-top: 120px;}
             text-transform: capitalize;
         margin-bottom: 72px;}
         
-.section-three-list{flex-wrap: wrap;
+.section-three-list{
 column-gap: 24px;
-row-gap: 48px;}
+row-gap: 48px;
+display: flex;}
 
 .section-three-item{width: calc((100% - 48px) / 3);}
 .div-app{padding: 32px 16px;
