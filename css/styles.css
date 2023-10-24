@@ -21,18 +21,19 @@ button{
 .header{border-bottom: 1px solid #e7e9fc;
 }
 
-.container-one{
+.container-one{display: flex;
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    display: flex;
+    
 }
 
 .header-nav{display: flex;align-items: center;
 }
-.header-list{gap: 40px;
-display: flex;}
+.header-list{display: flex;
+    gap: 40px;
+}
 .header-logo {color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -63,7 +64,7 @@ padding-top: 24px;
            
 
 .address-zero{ font-style: normal; 
-    display: flex;}
+}
 .address-list{
 display: flex;
 padding-top: 40px;
@@ -177,10 +178,11 @@ padding-top: 120px;}
             text-transform: capitalize;
         margin-bottom: 72px;}
         
-.section-three-list{
+.section-three-list{flex-wrap: wrap;
+display: flex;
 column-gap: 24px;
 row-gap: 48px;
-display: flex;}
+}
 
 .section-three-item{width: calc((100% - 48px) / 3);}
 .div-app{padding: 32px 16px;
