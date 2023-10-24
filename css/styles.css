@@ -21,7 +21,7 @@ button{
 .header{border-bottom: 1px solid #e7e9fc;
 }
 
-.container{display: flex;
+.container-one{display: flex;
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
