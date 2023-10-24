@@ -94,6 +94,7 @@ margin-right: 76px;}
         height: 56px;
         bottom: none;
         border-radius: 4px;
+        border: none;
     }
 
     .button:hover{background-color: #404BBF;}
@@ -102,7 +103,7 @@ margin-right: 76px;}
     .section-one{padding-top: 120px;
     padding-bottom: 120px;}
 
-.section-one-title{visibility: inherit;}
+.visually-hidden{visibility: hidden;}
 .section-one-item-title {color: var(--NAVY-BLUE, #2E2F42);
 font-size: 20px;
 font-weight: 500;
