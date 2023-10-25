@@ -24,10 +24,9 @@ button{
 .container{width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
-
+.header-container{display: flex;gap: 32px;align-items: center;}
 .header-nav{display: flex;align-items: center;
 }
 .header-list{display: flex;
@@ -85,10 +84,11 @@ gap: 40px;}
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
+    text-align: center;
     background: var(--NAVY-BLUE, #2E2F42);
     max-width: 496px;
+    margin: 0 auto;
 }
 
     .button {color: var(--WHITE, #FFF);
@@ -99,12 +99,10 @@ gap: 40px;}
         letter-spacing: 0.04em;
         background-color: #4D5AE5;
         cursor: pointer;
-        display: block;
         min-width: 169px;
         height: 56px;
         bottom: none;
         border-radius: 4px;
-        border: none;
     }
 
     .button:hover{background-color: #404BBF;}
