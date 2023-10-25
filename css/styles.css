@@ -20,13 +20,13 @@ button{
 }
 .header{border-bottom: 1px solid #e7e9fc;
 }
-
+.header-container{display: flex;gap: 32px;align-items: center;}
 .container{width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto; 
 }
-.header-container{display: flex;gap: 32px;align-items: center;}
+
 .header-nav{display: flex;align-items: center;
 }
 .header-list{display: flex;
