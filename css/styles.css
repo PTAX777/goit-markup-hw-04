@@ -97,9 +97,10 @@ gap: 40px;}
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
+        display: block;
         background-color: #4D5AE5;
         cursor: pointer;
-        display: block;
+        margin: auto;
         min-width: 169px;
         height: 56px;
         bottom: none;
