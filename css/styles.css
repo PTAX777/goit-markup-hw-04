@@ -31,8 +31,23 @@ button{
     
 }
 
-
-.header-nav{display: flex;align-items: center;
+.header{box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 1px 6px rgba(46, 47, 66, 0.08);}
+.header-nav{display: flex;
+    align-items: center;
+    position: relative;
+    color: #404bbf;
+}
+.header-nav::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-list{display: flex;
     gap: 40px;
@@ -116,7 +131,6 @@ gap: 40px;}
         bottom: none;
         border: none;
         border-radius: 4px;
-        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .button:hover{background-color: #404BBF;}
